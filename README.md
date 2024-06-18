@@ -13,17 +13,22 @@ This script requests an IP address from the user and then scans ports 1 through 
 
 ## Usage
 
-1. Ensure the script has execution permissions. You can do this by running:
+1. Download the script using `wget`:
+   ```bash
+   wget https://raw.githubusercontent.com/jorgearma/port_scanner.sh/main/port_scanner.sh
+
+
+2. Ensure the script has execution permissions. You can do this by running:
     ```bash
     chmod +x port_scanner.sh
     ```
 
-2. Run the script and follow the prompts:
+3. Run the script and follow the prompts:
     ```bash
     ./port_scanner.sh
     ```
 
-3. Enter the IP address you want to scan when prompted.
+4. Enter the IP address you want to scan when prompted.
 
 ## Example
 
